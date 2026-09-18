@@ -41,6 +41,7 @@ app.use(
 initSocket(httpServer);
 
 const PORT = process.env.PORT ? Number(process.env.PORT) : 4000;
-httpServer.listen(PORT, () => {
-  console.log(`API + Socket.IO server listening on http://localhost:${PORT}`);
+
+httpServer.listen(PORT, "0.0.0.0", () => {
+  console.log(`API + Socket.IO server listening on port ${PORT}`);
 });
