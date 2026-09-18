@@ -115,7 +115,7 @@ and the API never accepts a role from the client on `POST /api/auth/register`.
 - Chat page: live message list, participant list with mute/unmute controls for
   ADMIN/MODERATOR, delete-message buttons gated by ownership/role, typing indicator
 
-## 6. Notes / assumptions
+## 6. Notes
 
 - Passwords are hashed with `bcryptjs` (pure JS, avoids native build issues in
   grading environments) rather than the native `bcrypt`/`argon2` packages — this
