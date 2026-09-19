@@ -3,6 +3,9 @@
 Full-stack take-home assessment implementation: JWT authentication, a three-role
 authorization system (ADMIN / MODERATOR / MEMBER), and real-time chat channels.
 
+## 🎥 Demo
+https://github.com/user-attachments/assets/f1b5c2b4-b258-439a-b611-d88a888ebf0d
+
 - **Backend**: Node.js, Express, TypeScript, Prisma (PostgreSQL), Socket.IO, JWT, Zod, bcryptjs
 - **Frontend**: React (Vite, TypeScript), react-router-dom, axios, socket.io-client
 
